@@ -1,0 +1,184 @@
+Determining if the function mprotect exists failed with the following output:
+Change Dir: C:/Development/op3d_active/harfbuzz-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_ded6c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27030.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=mprotect /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ded6c.dir\Debug\\" /Fd"cmTC_ded6c.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _mprotect referenced in function _main [C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTC_ded6c.vcxproj]
+C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_ded6c.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTC_ded6c.vcxproj]
+
+
+Determining if the function sysconf exists failed with the following output:
+Change Dir: C:/Development/op3d_active/harfbuzz-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_7c75e.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27030.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sysconf /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7c75e.dir\Debug\\" /Fd"cmTC_7c75e.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _sysconf referenced in function _main [C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTC_7c75e.vcxproj]
+C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_7c75e.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTC_7c75e.vcxproj]
+
+
+Determining if the function getpagesize exists failed with the following output:
+Change Dir: C:/Development/op3d_active/harfbuzz-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_e38af.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27030.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getpagesize /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e38af.dir\Debug\\" /Fd"cmTC_e38af.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _getpagesize referenced in function _main [C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTC_e38af.vcxproj]
+C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_e38af.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTC_e38af.vcxproj]
+
+
+Determining if the function mmap exists failed with the following output:
+Change Dir: C:/Development/op3d_active/harfbuzz-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_463f8.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27030.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=mmap /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_463f8.dir\Debug\\" /Fd"cmTC_463f8.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _mmap referenced in function _main [C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTC_463f8.vcxproj]
+C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_463f8.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTC_463f8.vcxproj]
+
+
+Determining if the function newlocale exists failed with the following output:
+Change Dir: C:/Development/op3d_active/harfbuzz-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_7fe5b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27030.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=newlocale /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7fe5b.dir\Debug\\" /Fd"cmTC_7fe5b.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _newlocale referenced in function _main [C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTC_7fe5b.vcxproj]
+C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_7fe5b.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTC_7fe5b.vcxproj]
+
+
+Determining if the function strtod_l exists failed with the following output:
+Change Dir: C:/Development/op3d_active/harfbuzz-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_8ca0c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27030.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtod_l /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8ca0c.dir\Debug\\" /Fd"cmTC_8ca0c.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _strtod_l referenced in function _main [C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTC_8ca0c.vcxproj]
+C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_8ca0c.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTC_8ca0c.vcxproj]
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/Development/op3d_active/harfbuzz-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_67c67.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27030.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_67c67.dir\Debug\\" /Fd"cmTC_67c67.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTC_67c67.vcxproj]
+
+
+Determining if the include file sys/mman.h exists failed with the following output:
+Change Dir: C:/Development/op3d_active/harfbuzz-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_3b497.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27030.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3b497.dir\Debug\\" /Fd"cmTC_3b497.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/mman.h': No such file or directory [C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTC_3b497.vcxproj]
+
+
+Determining if the include file xlocale.h exists failed with the following output:
+Change Dir: C:/Development/op3d_active/harfbuzz-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_ed37a.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27030.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  CheckIncludeFile.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ed37a.dir\Debug\\" /Fd"cmTC_ed37a.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'xlocale.h': No such file or directory [C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTC_ed37a.vcxproj]
+
+
+Determining if the function FT_Get_Var_Blend_Coordinates exists failed with the following output:
+Change Dir: C:/Development/op3d_active/harfbuzz-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_57a63.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27030.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  CheckFunctionExists.c
+  cl /c /I"C:\Development\op3d_active\freetype-2.6.3\include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=FT_Get_Var_Blend_Coordinates /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_57a63.dir\Debug\\" /Fd"cmTC_57a63.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _FT_Get_Var_Blend_Coordinates referenced in function _main [C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTC_57a63.vcxproj]
+C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_57a63.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTC_57a63.vcxproj]
+
+
+Determining if the function FT_Done_MM_Var exists failed with the following output:
+Change Dir: C:/Development/op3d_active/harfbuzz-2.4.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_e9fe6.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27030.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  CheckFunctionExists.c
+  cl /c /I"C:\Development\op3d_active\freetype-2.6.3\include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=FT_Done_MM_Var /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e9fe6.dir\Debug\\" /Fd"cmTC_e9fe6.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _FT_Done_MM_Var referenced in function _main [C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTC_e9fe6.vcxproj]
+C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_e9fe6.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\op3d_active\harfbuzz-2.4.0\msvc\CMakeFiles\CMakeTmp\cmTC_e9fe6.vcxproj]
+
+
